@@ -1,0 +1,78 @@
+.about {
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background-color: #333;
+}
+.section_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about_info {
+  display: flex;
+}
+.aboutp {
+  font-family: "Merriweather", serif;
+  margin: 10px;
+  color: rgb(13, 14, 13);
+}
+.section_title span p {
+  font-family: "Merriweather", serif;
+  margin: 10px;
+  color: orange;
+}
+.content {
+  display: grid;
+  place-items: center;
+}
+.about_info2 {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+}
+.biop {
+  font-size: 28px;
+  text-align: left;
+  color: #fff;
+}
+.bioicon {
+  font-size: 24px;
+}
+ion-icon,
+.bioicon {
+  color: orange;
+}
+.about_button button {
+  margin-top: 40px;
+  padding: 12px 14px;
+  outline: none;
+  border: none;
+  background-color: orange;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  font-family: "Merriweather", serif;
+}
+@media only screen and (max-width: 768px) {
+  .about {
+    height: auto;
+    width: 100%;
+  }
+  .about_info2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .biop {
+    font-size: 16px;
+  }
+  .personalinfo1 {
+    text-align: left;
+  }
+  .about_button button {
+    font-size: 16px;
+    margin-top: 5px;
+  }
+}

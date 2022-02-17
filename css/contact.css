@@ -1,0 +1,117 @@
+.contact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00001a;
+}
+.section_title {
+  margin: 12px;
+}
+.section_title p {
+  color: aliceblue;
+}
+.section_title span p {
+  color: orange;
+}
+.conatct_subpara p{
+    color: #fff;
+    font-size: 22px;
+}
+.contact_social{
+    display: flex;
+    margin: 25px;
+}
+.contact_social1{
+    color: #fff;
+    display: flex;
+    margin-right: 10px;
+    width: 300px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+.phone,.email1,.location{
+    padding: 12px;
+    border-radius: 50%;
+    background-color: grey;
+    font-size: 44px;
+    margin: 10px;
+}
+.contact_text p:nth-child(1){
+    font-size: 22px;
+    font-weight: 700;
+    text-align: left;
+    color: orange;
+}
+.contact_text p{
+    font-size: 20px;
+    text-align: left;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.contact_info {
+  width: 700px;
+  height: auto;
+  background-color: black;
+  position: relative;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+.contactname,
+.email,.message,.subject{
+  margin-bottom: 12px;
+  width: 90%; 
+}
+.contact_submit{
+    position: absolute;
+    left: 62px;
+    bottom: 20px;
+}
+.contact_submit button{
+    width: 80px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 800;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    color: orange;
+    text-transform: uppercase;
+}
+.error p{
+  background-color:black;
+  font-size: 28px;
+  color: green;
+  padding: 18px;
+}
+@media only screen and (max-width:768px){
+  .conatct_subpara p{
+      font-size: 20px;
+      padding: 8px;
+  }
+  .contact_social{
+      display: flex;
+      align-items:center;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .contact_social1{
+      margin-bottom: 20px;
+      width: 300px;
+  }
+  .contact_info{
+      width: 100%;
+      margin: 20px;
+  }
+
+}
+

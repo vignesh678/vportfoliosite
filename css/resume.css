@@ -1,0 +1,120 @@
+
+.resume{
+    height: auto;
+    width: 100%;
+    background-color: #00001a;
+}
+.resume1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding: 30px;
+}
+.trophy,.case{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    color: orange;
+    margin-bottom: 10px;
+}
+.icon{
+    color: #fff;
+}
+.resumep{
+    font-family: 'Merriweather', serif;
+    color: #fff;
+}
+.resumespan{
+    color: rgba(253, 144, 1, 0.863);
+    font-family: 'Merriweather', serif;
+}
+.resume_content span{
+    font-size: 2.8rem;
+    text-transform: capitalize;
+    flex-direction: row;
+    display: flex;
+}
+.resume_info{
+    width:90%;
+    height: auto;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 14px 16px;
+    color: #fff;
+    background-color: black;
+}
+.resume_info span{
+    font-size: 36px;
+    text-transform: capitalize;
+    color: orange;
+}
+.resume_info p{
+    font-size: 22px;
+    text-align: justify;
+    line-height: 28px;
+    
+   
+}
+.back{
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(red,yellow);
+    background-size: cover;
+    position: relative;   
+}
+.back_text{
+    font-size: 12px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 300;
+}
+.back_text span{
+    color: red;
+    font-weight: 900;
+   
+}
+.back_text button{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: rgb(194, 22, 22);
+  padding: 14px 16px;
+  outline: none;
+  border: none;
+  border-radius: 30px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+
+@media only screen and (max-width:768px){
+
+    .resume1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .resume_info p{
+        font-size: 18px;
+    }
+    .back{
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 500px;
+       position: relative;
+    }
+    .back_text {
+        font-size: 22px;
+        position: absolute;
+        top: 20%;
+    }
+    .back button{
+        padding: 8px 12px;
+    }
+}

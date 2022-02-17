@@ -1,0 +1,135 @@
+.blog {
+  height: auto;
+  width: auto;
+  background-color: #00001a;
+}
+.blog,
+.blogpara {
+  font-family: "Merriweather", serif;
+}
+.blogpara {
+  color: #fff;
+}
+.blogspan {
+  color: rgba(253, 144, 1, 0.863);
+  font-family: "Merriweather", serif;
+}
+.blog1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.time {
+  padding: 5px;
+}
+.info {
+  width: 400px;
+  height: auto;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: rgba(9, 17, 17, 0.35) 0px 5px 15px;
+  color: #fff;
+  padding: 8px;
+}
+
+.blog_info .info_text p {
+  font-size: 20px;
+  padding: 12px;
+  line-height: 30px;
+  word-spacing: -1px;
+  text-align: justify;
+}
+.date1 {
+  margin-left: 5px;
+}
+.date {
+  font-size: 18px;
+  color: rgba(240, 119, 21, 0.808);
+  font-weight: 600;
+  font-family: "Nunito Sans", sans-serif;
+}
+.bar {
+  font-size: 20px;
+}
+.blog_title {
+  margin-left: 5px;
+  font-size: 30px;
+  text-transform: capitalize;
+  color: red;
+}
+.stext {
+  font-size: 20px;
+  font-weight: 400;
+}
+.blog_info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px;
+}
+.blog_img {
+  overflow: hidden;
+}
+.blog_img img {
+  transition: 1.5s;
+}
+.blog_img img:hover {
+  transform: scale(1.4);
+}
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.readmore_button >button >a {
+  font-size: 18px;
+  color: rgb(240, 165, 25);
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .blog_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  img {
+    height: 200px;
+    width: 300px;
+  }
+  .text1 {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+  .info img {
+    width: 100%;
+  }
+  .info {
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .info button {
+    padding: 2px 8px;
+    margin-top: 35px;
+    font-size: 20px;
+  }
+  .blog::after {
+    content: "";
+    margin: 18px;
+  }
+  .nav ul li {
+    font-size: 18px;
+    display: inline-block;
+    padding: 4px 8px;
+  }
+}

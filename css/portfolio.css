@@ -1,0 +1,94 @@
+
+.port{
+    height: auto;
+    background-color: #333;
+    position: relative;   
+}
+.portp{
+    color: rgba(253, 144, 1, 0.863);
+    font-family: 'Merriweather', serif;
+}
+.nav{ 
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.nav ul li{
+    padding: 8px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    cursor: pointer;
+    display:inline-block;
+    color: #000;
+    margin-right: 12px;
+    margin-bottom: 10px;
+    background-color:lightgreen;
+
+}
+.nav li.active{
+    background-color: green;
+    color:rgba(253, 144, 1, 0.863);
+    
+}
+.nav ul li:hover{
+    background-color: rgb(43, 140, 185);
+    
+}
+.nav ul li:visited{
+    background-color: rgb(194, 22, 22);
+}
+.item img
+{
+    width: 300px;
+    height: 400px;
+    transition: 0.3 ease;
+}
+.img_text{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.about_icon{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 34px;
+    padding-bottom: 28px;
+}
+.product .item{
+    width: 300px;
+    height: 400px;
+    
+}
+.product .item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+
+@media only screen and (max-width:768px){
+
+    .nav ul li{
+        padding: 6px 8px;
+        font-size: 16px;
+    }
+    .nav{ 
+        margin: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+}

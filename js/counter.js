@@ -1,0 +1,1 @@
+$(".counter").counterUp({time:2000,delay:10});
